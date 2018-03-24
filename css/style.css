@@ -15,6 +15,7 @@ body a {
 a:hover{
  text-decoration:none;
 }
+
 input[type="button"],input[type="submit"]{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -52,14 +53,14 @@ label{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 770px;
+    min-height: 400px;/*横幅大小*/
     position: relative;
 }
 .banner-image-w3layouts img {
     position: absolute;
     bottom: 0;
-    right: 6%;
-    width: 425px;
+    right: 13%;
+    width: 300px;
 }
 .w3_agile_logo{
 	float:left;
@@ -84,7 +85,7 @@ label{
     font-weight: 600;
 }
 .agile_banner_info {
-    margin: 11em 0 0em 14em;
+    margin: 3em 0 0em 14em;/*设置横幅中动态文字的位置*/
     text-align: left;
 }
 p.banner-p-w3ls {
@@ -396,7 +397,7 @@ li.dropdown.act a.w3_icons_act {
 	color:#fff!important;
 }
 .about-left-w3ls {
-    background: url(../images/about.jpg)no-repeat 0px 0px;
+    background: url(../images/timg.jpg)no-repeat 0px 0px;
     background-size: cover;
     padding: 0;
     min-height: 794px;
@@ -938,7 +939,7 @@ section.mid-w3layouts a:hover {
 }
 .w3agile-text.w3agile-text-small h5, .grid_w3l .w3agile-text h5 {
     font-size: 2em;
-    padding: 5em 0 0;
+    padding: 3em 0 0;/*项目名称位置设置*/
 }
 .grid_w3l {
     width: 48.5%;
